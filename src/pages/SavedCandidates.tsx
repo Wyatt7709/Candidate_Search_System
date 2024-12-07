@@ -1,7 +1,9 @@
+import SavedCandidateList from "../components/SavedCandidateList";
 const SavedCandidates = () => {
-  return (
+    return (
     <>
       <h1>Potential Candidates</h1>
+      <SavedCandidateList />
     </>
   );
 };
